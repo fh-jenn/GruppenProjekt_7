@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#frage-text {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.buttons button {
+    padding: 20px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+.buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+.buttons button img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#ergebnis-text {
+    font-size: 1.5em;
+}
